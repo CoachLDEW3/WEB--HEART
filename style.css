@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+.heart{
+    font-size: 200px;
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+@keyframes beat{
+    to {transform: scale(1.4);}
+}
